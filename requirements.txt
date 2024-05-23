@@ -1,0 +1,6 @@
+panel==1.4
+bokeh==3.4.1
+ipython-sql
+openpyxl
+folium
+psycopg2
