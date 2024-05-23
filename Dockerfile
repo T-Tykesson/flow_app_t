@@ -8,8 +8,7 @@ RUN python3 -m pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY . .
 
-CMD ["panel", "serve", "/code/app.py", 
-     "--address", "0.0.0.0", 
+CMD ["panel", "serve", "/code/app.py",
      "--port", "8080",  
      "--allow-websocket-origin", "*", 
      "--index", "app",
