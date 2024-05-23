@@ -16,7 +16,8 @@ CMD panel serve /code/app.py \
     --basic-auth credentials.json \
     --logout-template templates/login.html \
     --basic-login-template templates/login.html \
-    --cookie-secret my_super_safe_cookie_secret
+    --cookie-secret my_super_safe_cookie_secret \
+    --static-dirs images
 
 RUN mkdir -p /.cache
 RUN chmod 777 /.cache
