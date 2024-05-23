@@ -14,7 +14,7 @@ CMD panel serve /code/app.py \
     --allow-websocket-origin "*" \
     --index app \
     --basic-auth credentials.json \
-    --logout-template templates/logout.html \
+    --logout-template templates/login.html \
     --basic-login-template templates/login.html \
     --cookie-secret my_super_safe_cookie_secret
 
