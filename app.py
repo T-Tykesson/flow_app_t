@@ -1,8 +1,9 @@
 from bokeh.models import RadioButtonGroup, Div
 from os import path
 import panel as pn
+import logging_config
 import logging
-import logging.config
+#import logging.config
 from widgets.signal_selection_widget import SignalSelectionWidget
 from widgets.existing_calc_selection_widget import ExistingCalcSelectionWidget
 from widgets.calctype_selection_widget import (CreateNewCalculationWidget,
